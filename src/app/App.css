@@ -1,0 +1,16 @@
+a:active {
+  text-decoration: none;
+  color: #02d2de;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #02d2de;
+}
+
+body{
+  margin: 0;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 400;
+}

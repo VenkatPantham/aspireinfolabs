@@ -11,6 +11,7 @@ import {
   TWITTER_URL,
   LINKEDIN_URL,
 } from "../../../../../shared/constants/social.const";
+import { BLOG_6_IMAGE_1 } from "../../../shared/images/publicationImages";
 
 export const BlogDetailsData = [
   {
@@ -181,6 +182,7 @@ export const BlogDetailsData = [
               {
                 id: 1,
                 text: "Bob is the name of our mental framework for an exemplary data scientist. Bob has messy hair, wears round glasses, has intellectual curiosity, and a proactive problem-solving attitude. Bob is the fictional character that we will use as a thinking model in this blog post to understand what does a data scientist do on a day-to-day basis.",
+                image: BLOG_6_IMAGE_1,
               },
             ],
           },

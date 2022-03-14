@@ -85,7 +85,7 @@ const BlogDetails = () => {
 
   return (
     <Container className={classes.root}>
-      <img src={blog.image} className={classes.blogImage} alt={blog.title} />
+      <img src={blog.cover} className={classes.blogImage} alt={blog.title} />
       <Toolbar className={classes.socialIconsSideList}>
         {blogIcons.map((icon) => (
           <img

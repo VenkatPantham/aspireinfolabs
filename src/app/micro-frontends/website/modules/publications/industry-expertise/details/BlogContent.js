@@ -15,6 +15,11 @@ const usePublicationsBlogStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(4),
     fontWeight: "bold",
   },
+  blogImage: {
+    objectFit: "contain",
+    width: "100%",
+    maxHeight: 400,
+  },
 }));
 
 const BlogContent = ({ details }) => {
@@ -51,7 +56,16 @@ const BlogContent = ({ details }) => {
                     {el2.heading}
                   </p>
                   {el2.list.map((el3, index3) => (
-                    <p key={index3}>{el3.text}</p>
+                    <>
+                      <p key={index3}>{el3.text}</p>
+                      {el3.image && (
+                        <img
+                          src={el3.image}
+                          alt="blog_image"
+                          className={classes.blogImage}
+                        />
+                      )}
+                    </>
                   ))}
                 </>
               ))

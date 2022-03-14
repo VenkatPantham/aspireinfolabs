@@ -21,7 +21,7 @@ import { INSIGHTS_INFO } from "./Home.content";
 const ourInsightsStyles = makeStyles((theme) => ({
   root: {
     textAlign: "center",
-    padding: "10% 3%",
+    padding: "0% 3%",
   },
   heading: {
     fontWeight: "bold",
